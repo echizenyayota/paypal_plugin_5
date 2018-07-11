@@ -1,0 +1,12 @@
+[11-Jul-2018 01:03:04 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/PayPal_ExpressCheckout.php on line 71
+[11-Jul-2018 01:04:04 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/PayPal_ExpressCheckout.php on line 71
+[11-Jul-2018 01:05:05 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/PayPal_ExpressCheckout.php on line 71
+[11-Jul-2018 01:06:15 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/PayPal_ExpressCheckout.php on line 71
+[11-Jul-2018 01:06:16 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/PayPal_ExpressCheckout.php on line 71
+[11-Jul-2018 01:06:24 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /var/www/wordpress/wp-content/plugins/paypal_expresscheckout/PayPal_ExpressCheckout.php on line 71
+[11-Jul-2018 01:09:01 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'PayPal_ExpressCheckout' does not have a method 'paypal_init' in /var/www/wordpress/wp-includes/class-wp-hook.php on line 286
+[11-Jul-2018 01:09:01 UTC] PHP Stack trace:
+[11-Jul-2018 01:09:01 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/admin-ajax.php:0
+[11-Jul-2018 01:09:01 UTC] PHP   2. do_action() /var/www/wordpress/wp-admin/admin-ajax.php:44
+[11-Jul-2018 01:09:01 UTC] PHP   3. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[11-Jul-2018 01:09:01 UTC] PHP   4. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
