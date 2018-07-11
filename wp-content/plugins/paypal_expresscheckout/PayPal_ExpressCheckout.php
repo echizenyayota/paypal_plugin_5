@@ -20,6 +20,7 @@ Text Domain: paypal_expresscheckout
    // コンストラクタ
   public function __construct() {
     add_action( 'admin_menu', array($this, 'paypalexpresscheckout_add_admin_menu') );
+    add_action( 'admin_init', array($this, 'paypal_init') );
   }
 
   // 管理画面にサブメニューを表示する
@@ -64,6 +65,10 @@ Text Domain: paypal_expresscheckout
      </form>
 
   <?php
+
+  }
+
+  public function paypal_init() {
 
   }
 
