@@ -1,0 +1,6 @@
+[11-Jul-2018 01:33:18 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'PayPal_ExpressCheckout' does not have a method 'paypal_init' in /var/www/wordpress/wp-includes/class-wp-hook.php on line 286
+[11-Jul-2018 01:33:18 UTC] PHP Stack trace:
+[11-Jul-2018 01:33:18 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/admin-ajax.php:0
+[11-Jul-2018 01:33:18 UTC] PHP   2. do_action() /var/www/wordpress/wp-admin/admin-ajax.php:44
+[11-Jul-2018 01:33:18 UTC] PHP   3. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[11-Jul-2018 01:33:18 UTC] PHP   4. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
