@@ -24,7 +24,13 @@ Text Domain: paypal_expresscheckout
 
   // 管理画面にサブメニューを表示する
   public function paypalexpresscheckout_add_admin_menu() {
-
+    add_options_page(
+        'Settings Admin',
+        'PayPal ExpressCheckout Settings Page',
+        'manage_options',
+        'my-setting-admin',
+        array( $this, 'create_admin_page' )
+    );
   }
 
   // 設定ページの表示
