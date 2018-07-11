@@ -14,7 +14,8 @@ Text Domain: paypal_expresscheckout
 */
 
  class PayPal_ExpressCheckout {
-
+   // プロパティ（フィールドコールバックで使用される値を保持）
+   private $options;
  }
 
  require(__DIR__ . '/PayPal_ExpressCheckout_admin.php');
